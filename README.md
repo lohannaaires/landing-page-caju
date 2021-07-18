@@ -22,3 +22,8 @@ OBS: A logo e as imagens foram encontradas no Google, não sendo de autoria pró
 2. Crie uma nova branch para trabalhar: `git checkout -b my-feature`
 3. Faça commit da sua feature: `git commit -m "feature: My new feature"`
 4. Envie as suas alterações: `git push origin my-feature`
+5. Solicite uma Pull Request para o diretório original.
+
+## 📝 Licensa
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
