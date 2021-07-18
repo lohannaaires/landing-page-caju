@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/cab42dffd7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/favicon.png">
+  <title>Caju - Black Friday</title>
+</head>
+
+<body onload="countdown()">
+  <header>
+    <img src="assets/logo-caju.png" alt="Logo da Caju" />
+  </header>
+
+  <div class="message-container">
+    <p>O sabor do Piauí com o menor preço.</p>
+  </div>
+
+  <section class="section-container section-one">
+    <div class="content-left">
+      <h1 class="content-left__badge">BLACK FRIDAY</h1>
+      <div>
+        <ul class="countdown">
+          <li>
+            <div id="days" class="number">00</div>
+            <div class="countdown__label">Dias</div>
+          </li>
+
+          <li>
+            <div id="hours" class="number">00</div>
+            <div class="countdown__label">Horas</div>
+          </li>
+
+          <li>
+            <div id="minutes" class="number">00</div>
+            <div class="countdown__label">Minutos</div>
+          </li>
+
+          <li>
+            <div id="seconds" class="number">00</div>
+            <div class="countdown__label">Segundos</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="content-right" id="content-right">
+      <form action="" id="form" class="form" autocomplete="off">
+        <p class="form__title">Cadastre-se para saber o que estamos preparando antes de todo mundo!</p>
+        <input type="text" placeholder="Nome" id="name" class="input" required>
+        <input type="email" placeholder="E-mail" id="email" class="input" required>
+        <input type="submit" value="Cadastrar" class="input input--submit">
+      </form>
+    </div>
+  </section>
+
+  <div class="message-container">
+    <p>Temos a melhor seleção de produtos para você!</p>
+  </div>
+
+  <section class="section-container section-two">
+    <div class="cards-container">
+      <div class="card">
+        <img src="assets/berrio-lata.png" alt="Cerveja Berrió do Piauí em lata">
+        <div class="card__title">
+          <h4>Berrió <br> do Piauí</h4>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/cajuina-brasucos.png" alt="Cajuína Brasucos">
+        <div class="card__title">
+          <h4>Cajuína <br> Brasucos</h4>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/castanha1.png" alt="Castanha de Caju">
+        <div class="card__title">
+          <h4>Castanha de caju <br> Bom Sabor</h4>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/castanha2.png" alt="Castanha de Caju Caramelizada">
+        <div class="card__title">
+          <h4>Castanha de caju caramelizada Bom Sabor</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="footer__text">© Todos os direitos reservados.</p>
+    <p class="footer__text">Desenvolvido por <span class="orange">Lohanna Aires</span></p>
+    <div class="social-container">
+      <a href="https://github.com/lohannaaires" target="_blank" class="social-container__item">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/lohannaaires/" target="_blank" class="social-container__item">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a href="https://discordapp.com/users/561943411049889798/" target="_blank" class="social-container__item">
+        <i class="fab fa-discord fa-2x"></i>
+      </a>
+      </a>
+    </div>
+  </footer>
+
+</body>
+
+<script src="js/script.js"></script>
+<script src="js/countdown.js"></script>
+
+</html>
