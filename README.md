@@ -26,4 +26,4 @@ OBS: A logo e as imagens foram encontradas no Google, não sendo de autoria pró
 
 ## 📝 Licensa
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
