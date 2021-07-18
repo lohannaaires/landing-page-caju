@@ -24,6 +24,6 @@ OBS: A logo e as imagens foram encontradas no Google, não sendo de autoria pró
 4. Envie as suas alterações: `git push origin my-feature`
 5. Solicite uma Pull Request para o diretório original.
 
-## 📝 Licensa
+## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
